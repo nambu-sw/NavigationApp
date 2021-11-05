@@ -15,8 +15,8 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        nameLabel.text = "매트"
-        imageView.image = UIImage(named: "매트")
+        nameLabel.text = "정신차린 매트"
+        imageView.image = UIImage(named: "초롱")
     }
 
 }
