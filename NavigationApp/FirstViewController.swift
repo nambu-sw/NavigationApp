@@ -14,8 +14,8 @@ class FirstViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        nameLabel.text = "매트의 진실"
-        imageView2.image = UIImage(named: "진실")
+        nameLabel.text = "화목한 패트와 매트"
+        imageView2.image = UIImage(named: "patmat")
         
     }
 

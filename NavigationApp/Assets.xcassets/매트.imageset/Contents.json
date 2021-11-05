@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "매트.jpeg",
+      "filename" : "매트-2.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -10,6 +10,7 @@
       "scale" : "2x"
     },
     {
+      "filename" : "매트-1.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }
