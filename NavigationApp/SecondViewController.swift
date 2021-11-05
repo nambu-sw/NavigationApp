@@ -10,11 +10,13 @@ import UIKit
 class SecondViewController: UIViewController {
 
     @IBOutlet weak var nameLabel: UILabel!
-
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        nameLabel.text = "매트"
+        imageView.image = UIImage(named: "매트")
     }
 
 }
