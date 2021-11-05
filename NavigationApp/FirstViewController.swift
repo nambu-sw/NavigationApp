@@ -9,11 +9,14 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet weak var imageView2: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        nameLabel.text = "매트의 진실"
+        imageView2.image = UIImage(named: "진실")
+        
     }
 
 
